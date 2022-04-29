@@ -17,7 +17,7 @@ public class OrderRunner {
         Delivery family = new FamilyDelivery();
         Delivery hiLife = new HiLifeDelivery();
         Delivery shopee = new ShopeeDelivery();
-        List<Order> orders = new ArrayList<>();
+        List<Order> orders = new ArrayList< >();
         orders.add(new Order(700, sevenEleven));
         orders.add(new Order(250, family));
         orders.add(new Order(550, hiLife));
